@@ -1,0 +1,82 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" role="img" aria-label="Интерьер ванной комнаты: ванна, душ, раковина">
+  <defs>
+    <linearGradient id="wall3" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#e7efec"/>
+      <stop offset="1" stop-color="#dbe7e3"/>
+    </linearGradient>
+    <linearGradient id="floor3" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#cdd8d3"/>
+      <stop offset="1" stop-color="#bcc9c4"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="800" height="600" fill="url(#wall3)"/>
+  <path d="M0 440 H800 V600 H0 Z" fill="url(#floor3)"/>
+  <g stroke="#b3c3bd" stroke-width="2" opacity="0.7">
+    <path d="M0 480 H800"/><path d="M0 520 H800"/><path d="M0 560 H800"/>
+    <path d="M100 440 V600"/><path d="M250 440 V600"/><path d="M400 440 V600"/><path d="M550 440 V600"/><path d="M700 440 V600"/>
+  </g>
+
+  <!-- плитка на стене -->
+  <g stroke="#c4d4ce" stroke-width="2" opacity="0.9">
+    <path d="M60 80 V400"/><path d="M160 80 V400"/><path d="M260 80 V400"/><path d="M360 80 V400"/><path d="M460 80 V400"/><path d="M560 80 V400"/><path d="M660 80 V400"/>
+    <path d="M60 130 H740"/><path d="M60 190 H740"/><path d="M60 250 H740"/><path d="M60 310 H740"/><path d="M60 370 H740"/>
+  </g>
+
+  <!-- окно -->
+  <g>
+    <rect x="560" y="110" width="160" height="170" rx="8" fill="#ffffff"/>
+    <rect x="570" y="120" width="140" height="150" rx="4" fill="#cfe6ec"/>
+    <path d="M570 220 Q610 200 640 214 T710 208 V270 H570 Z" fill="#a8c9b0" opacity="0.65"/>
+    <path d="M640 120 V270" stroke="#ffffff" stroke-width="8"/>
+    <path d="M570 200 H710" stroke="#ffffff" stroke-width="8"/>
+  </g>
+
+  <!-- ванна -->
+  <g>
+    <ellipse cx="250" cy="540" rx="200" ry="22" fill="#9fb0aa" opacity="0.3"/>
+    <rect x="52" y="358" width="380" height="150" rx="30" fill="#fbfaf6"/>
+    <rect x="72" y="376" width="340" height="112" rx="24" fill="#eef3f1"/>
+    <rect x="72" y="420" width="340" height="68" rx="20" fill="#d9e7e3"/>
+    <rect x="96" y="366" width="12" height="20" rx="5" fill="#b7b1a6"/>
+    <path d="M120 366 V340 Q120 326 136 326 H168" stroke="#9b958a" stroke-width="7" fill="none" stroke-linecap="round"/>
+  </g>
+
+  <!-- душевая -->
+  <g>
+    <rect x="470" y="120" width="180" height="330" rx="8" fill="#dcebe8" opacity="0.55"/>
+    <rect x="470" y="120" width="180" height="330" rx="8" fill="none" stroke="#a9c2bc" stroke-width="4"/>
+    <path d="M560 120 V450" stroke="#a9c2bc" stroke-width="3"/>
+    <path d="M470 300 H650" stroke="#a9c2bc" stroke-width="3"/>
+    <path d="M560 120 V150" stroke="#8b8378" stroke-width="6"/>
+    <circle cx="560" cy="158" r="16" fill="#b9b3a8"/>
+  </g>
+
+  <!-- раковина -->
+  <g>
+    <rect x="60" y="440" width="0" height="0" fill="none"/>
+    <rect x="640" y="392" width="110" height="70" rx="14" fill="#fbfaf6"/>
+    <rect x="650" y="404" width="90" height="44" rx="10" fill="#e6eeeb"/>
+    <rect x="688" y="430" width="14" height="10" rx="4" fill="#b7b1a6"/>
+    <rect x="694" y="360" width="8" height="34" rx="4" fill="#9b958a"/>
+    <path d="M698 360 Q698 344 714 344 H724" stroke="#9b958a" stroke-width="6" fill="none" stroke-linecap="round"/>
+    <rect x="660" y="462" width="70" height="10" rx="4" fill="#d4cdc1"/>
+  </g>
+
+  <!-- зеркало -->
+  <g>
+    <rect x="110" y="120" width="120" height="170" rx="60" fill="#f7fbfa" stroke="#c4d4ce" stroke-width="4"/>
+    <path d="M130 250 Q160 190 210 160" stroke="#ffffff" stroke-width="10" opacity="0.8" fill="none"/>
+  </g>
+
+  <!-- полотенца и декор -->
+  <g>
+    <rect x="360" y="300" width="70" height="12" rx="6" fill="#c9b9a4"/>
+    <rect x="370" y="312" width="50" height="86" rx="6" fill="#e0b15c"/>
+    <rect x="374" y="318" width="42" height="8" rx="4" fill="#f0c979"/>
+    <path d="M470 470 Q470 440 488 432 Q496 460 482 478 Z" fill="#5d8a68"/>
+    <rect x="466" y="476" width="30" height="22" rx="4" fill="#b9764f"/>
+  </g>
+
+  <rect x="0" y="434" width="800" height="10" fill="#f7f2e9" opacity="0.85"/>
+</svg>

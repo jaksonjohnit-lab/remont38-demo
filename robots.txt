@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://remont38.ru/sitemap.xml
